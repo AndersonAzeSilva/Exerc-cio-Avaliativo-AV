@@ -1,0 +1,92 @@
+Aluno: José Anderson Azevedo Da Silva
+Matricula: 202208665454
+Sala: Li - 06
+Professor: Simone Gama
+-------------------------------------------------------------------------------
+-------Atividade de Implementação: Aplicando RAD, Tkinter e BD Postgree--------
+
+METODOLOGIA RAD:
+----------------
+A metodologia RAD faz uso de ferramentas de desenvolvimento que 
+padronizam a implementação dos sistemas e apoiam os desenvolvedores 
+na implementação de interfaces gráficas com o usuário, manipulação de dados, 
+desenvolvimentos de APIs e outros serviços que poupam o tempo do desenvolvedor, 
+para que possa usá-lo de forma mais eficiente para a implementação do sistema.
+
+1. FASE DE PLANEJAMENTO DE REQUISITOS:
+--------------------------------------
+Os requisitosdo sistema basicamente descrevem o que deve ser feito. 
+É importante garantir que eles sejam completos e que sejam relevantes 
+para o desenvolvimento do sistema. A Engenharia de Requisitos consiste 
+em cinco atividades principais (Pressman, 2011):
+
+OBJETIVO: 
+---------
+O objetivo desse projeto, é desenvolver uma ferramenta que seja capaz
+de cadastrar os novos produtos de uma papelaria. Além de realizar consultas,
+inserir preços, atualizar e deletar dados se necessário.  
+
+Nome do estabelecimento: JAS Papelaria SG
+
+ESCOPO DO PROJETO: 
+------------------
+Este software será um Sistema de Cadastro de Produtos. Ele será projetado para cadastrar produtos 
+(ID, nome, lote e preço do produto. Além disso, os dados são gravados em um banco de dados para facilitar 
+a integração com outros sistemas. O sistema atenderá às necessidades básicas de cadastro de produtos.
+
+ID do Produto
+Nome do Produto
+Lote do Produto
+Preço do Produto
+
+Interfaces Gráficas do Sistema: 
+-------------------------------
+O programa é compativel apenas com sistema operacional Linux, Windows 11 e MAC OS.
+O programa realiza conexões com os SGBD PostGreSql, MySql e Oracle.
+
+REQUISITOS FUNCIONAIS
+---------------------
+RF1 – Acesso a histórico de dados é informações dos produtos pelo usuário autorizado 
+      como (nome do produto, lote e preço);
+RF2 – Inclusão de dados (o sistema deverá cadastrar os produtos, lote de fabricação, 
+    preços e o preço de cada produto. Além de ter a opção de adicionar novos produtos manualmente;
+RF3 – Atualização de Dados; (o sistema deverá permitir que sejam feitas alterações nos dados inseridos;
+RF5 – Possibilidade de inclusão ou exclusão de informações;
+RF6 – Consultar Produtos;
+RF7 – Consultar Preços;
+RF8 – Gerar relatórios;
+RF9 – Buscar produtos específicos;
+
+REQUISITOS NÃO-FUNCIONAIS
+-------------------------
+RNF1 – O sistema deverá ser utilizado em um computador com Windows 11, Linux ou MAC OS;
+RNF2 – Acesso restrito ao banco de dados; (o acesso direto ao banco de dados deve ser 
+       feito apenas por um profissional de TI ou responsável pelo estabelecimento;
+RNF3 – Conexão; O computador deverá estar conectado a uma rede com no mínimo 10 Mega de velocidade;
+RNF4 – Consumo de memória; O computador deverá ter no mínimo 4GB de memória RAM;
+RNF6 – Usabilidade; O sistema deverá ter a necessidade de login;
+RNF7 – Cópia de segurança dos dados e do sistema;
+RNF8 – Usuário não-autorizados; O sistema deverá sempre exibir uma mensagem de erro, caso o usuário 
+       informe os seus dados incorretos, ao tentar acessar uma funcionalidade do sistema. 
+RNF9 – Tipo de sistema operacional;
+RND10 – Salvamento de informações.
+
+2. FASE DE DESIGN DO USUÁRIO
+----------------------------
+O programa possui uma interface grafica bem simples e de fácil aprendizado. Com uma tela principal azul 
+e os botões cinza em destaque. Permite com que o usuário faça CONSULTAS, CADASTRE NOVOS PRODUTOS, EXCLUIR
+OU ATUALIZAR. Além de Adicionar preços de cada produto. 
+
+Caso o usuário insira os dados incorretos, o programa possui um botão de LIMPAR, para que e possa inseridos
+os dados novamente nos respectivos campos.
+
+3. FASE DESENVOLVIMENTO DO SISTEMA
+----------------------------------
+Essa etapa descreve o processo de desenvolvimento do sistema de Cadastro proposto. As ferramentas utilizadas são:
+- Framework Tkinter Python.
+- Gerenciador de Banco de Dados PostgreSQL.
+- IDE (Vscode).
+
+4. FASE DE TRANSIÇÃO
+--------------------
+Aqui, são feitos processamento de dados, testes, mudança para o novo sistema e treinamento do usuário.
